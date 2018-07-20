@@ -1,0 +1,1 @@
+select username, title, content from users u inner join posts p on u.id=p.id;
